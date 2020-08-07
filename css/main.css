@@ -1,0 +1,41 @@
+body{
+background-size: cover;
+height:900px;
+width:100%;
+background-color: wheat;
+}
+
+h1 p{
+  text-align: center;
+  font-style: sans-serif;
+  font-size: 20px;
+}
+nav ul li {
+  list-style-type: none;
+  display:flex;
+  float:right;
+  padding:20px;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px;
+  border:cyan;
+  float:right;
+  font-size: 30px;  
+}
+nav ul li a:hover{
+  background-color:cyan;
+}
+
+.main-container{
+  font-family: 'opensans-regular',sans-serif;
+  min-height: 490px;
+  text-align:top;
+  color:black;
+  padding-top: 200px;
+}
+p{
+  font-size: 20px;
+  text-align:left;
+}
